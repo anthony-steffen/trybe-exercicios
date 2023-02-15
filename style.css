@@ -3,31 +3,36 @@
 }
 
 .header {
-    padding: 20px;
-    background: no-repeat right/40% url("imagens/1ecf7375-9cc9-4b3d-ba9a-c1cdcab267b5-1666814673964.png");
+    
+    padding: 1% 3%;
+    margin: auto;
+    background: no-repeat right/60% url("imagens/1ecf7375-9cc9-4b3d-ba9a-c1cdcab267b5-1666814673964.png");
     background-color: rgb(3 68 34)
     
 }
 
 .header a{
-    font-size:large;
-    padding: 10px ;
-    color: rgb(7, 7, 7);
-    text-align: center ;
-    margin: auto;
+    padding-top: 0.5%;
+    display:flex;
+    justify-content: right;
+    font-size:x-large;
+    color: rgb(255, 255, 255);
+    margin: 1%;
+    text-decoration: none;
+    text-align: end;
 }
 
 .meuNome{
     color: rgb(250, 250, 250);
-    margin:0% 4%;
+    margin:0% 11%;
     display: flex;
     justify-content: left;
-    font-size: 40px;
+    font-size: 35px;
     font-style:unset;
 }
 .header img{
     width: 500px;
-    margin: 5px;
+    margin: 1% 5%;
     display:left;
     justify-content: center;
     border-style:ridge
