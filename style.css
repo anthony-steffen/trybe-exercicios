@@ -1,0 +1,42 @@
+*{
+}
+
+.header {
+    background-color: rgb(252, 3, 3)  ;
+    padding: 0.6em;
+    display: inline-block;
+}
+
+.header a{
+    font-size:large;
+    padding: 10px ;
+    color: rgb(7, 7, 7);
+    text-align: center ;
+    margin: auto;
+}
+
+.header h1{
+      margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.header img{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-style:ridge
+    
+}
+
+
+
+
+.header p{
+font-size: medium;
+padding: 10px ;
+}
+
+
+
