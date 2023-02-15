@@ -1,2 +1,2 @@
 # Trybe Exercícios!
-### Neste repositório estaram todos os exercícios do curso: Desenvolvimento Web Trybe!
+### Neste repositório ficarão todos os exercícios do curso: Desenvolvimento Web Trybe!
