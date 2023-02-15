@@ -1,10 +1,12 @@
 *{
+
 }
 
 .header {
-    background-color: rgb(252, 3, 3)  ;
-    padding: 0.6em;
-    display: inline-block;
+    padding: 20px;
+    background: no-repeat right/40% url("imagens/1ecf7375-9cc9-4b3d-ba9a-c1cdcab267b5-1666814673964.png");
+    background-color: rgb(3 68 34)
+    
 }
 
 .header a{
@@ -15,21 +17,22 @@
     margin: auto;
 }
 
-.header h1{
-      margin: auto;
+.meuNome{
+    color: rgb(250, 250, 250);
+    margin:0% 4%;
     display: flex;
-    justify-content: center;
-    
+    justify-content: left;
+    font-size: 40px;
+    font-style:unset;
 }
 .header img{
     width: 500px;
-    margin: auto;
-    display: flex;
+    margin: 5px;
+    display:left;
     justify-content: center;
     border-style:ridge
     
 }
-
 
 
 
