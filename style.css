@@ -1,5 +1,6 @@
 *{
-
+margin: 0;
+padding: 0;
 }
 
 .header {
@@ -14,46 +15,48 @@
 a.classe2:hover {
 	text-decoration: underline;
 	color: #50fa7b;
-	}
-a.classe2:active {
-	text-decoration: underline overline
+ 
 	}
 
-
-.header a{
-    padding-top: 0.5%;
-    display:flex;
-    justify-content: right;
-    font-size:x-large;
-    color: rgb(255, 255, 255);
-    margin: 1%;
+.header button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0 15px;
     text-decoration: none;
-    text-align: end;
+    display:flex;
+    margin-left: 85%;
 }
+
 
 .meuNome{
     color: rgb(250, 250, 250);
-    margin:0% 9%;
-    display: flex;
+    margin:0 10%;
+    display:flex;
     justify-content: left;
     font-size: 40px;
-    font-style:unset;
+    font-style:normal;
 }
+
+.header p{
+    font-size: medium;
+    padding: 10px ;
+    }
+
 .header img{
     width: 500px;
-    margin: 1% 5%;
-    display:left;
+    margin: 0.5% 5%;
+    display:flex;
     justify-content: center;
     border-style:ridge
     
 }
 
-
-
-.header p{
-font-size: medium;
-padding: 10px ;
+.fundo{
+    background-color: #4CAF50;
 }
+
+
 
 
 
