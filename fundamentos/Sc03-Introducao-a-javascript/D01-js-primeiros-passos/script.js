@@ -8,10 +8,14 @@
 //    console.log('Vencedor Número 2 ');
 //}
 
-let diaper;
-let babySize = 50;
 
-if (babySize = 4){
+
+let diaper;
+let babySize = 'Xablau';
+
+if(typeof(babySize) !== 'number'){
+    diaper = 'Favor Digitar apenas números';
+}else if (babySize = 4){
     diaper = 'RN';
 }else if(babySize > 4 && babySize <= 6){
     diaper = 'RN+';
